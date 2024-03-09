@@ -1,0 +1,121 @@
+.card {
+  display: grid;
+  grid-template-columns: 1fr;
+}
+
+.card__title {
+  font-size: 32px;
+  font-weight: 900;
+  line-height: 35px;
+  text-align: left;
+  margin: 0;
+  padding: 0 16px;
+}
+
+.card__professional {
+  padding: 30px 16px;
+}
+
+.card__artist {
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 14.52px;
+  text-align: left;
+  color: #aaaaaa;
+  margin: 0 0 8px 0;
+}
+
+.card__name {
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 22px;
+  text-align: left;
+  margin: 0;
+}
+
+.card__image {
+  width: 100%;
+}
+
+.card__paragraphs {
+  display: flex;
+  flex-direction: column;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26.08px;
+  text-align: left;
+  gap: 25px;
+  padding: 30px 16px;
+}
+.card__paragraphs p {
+  margin: 0;
+}
+
+.card__button {
+  background: #0278fe;
+  color: #fff;
+  padding: 13px 20px;
+  border-radius: 4px;
+  font-size: 14px;
+  line-height: 16.94px;
+  margin: 0 16px;
+  text-decoration: none;
+  text-align: center;
+  display: block;
+}
+
+@media screen and (min-width: 768px) {
+  .card {
+    grid-template-columns: repeat(2, 1fr);
+    column-gap: 28px;
+    row-gap: 48px;
+    grid-template-rows: auto min-content 1fr;
+  }
+
+  .card__title {
+    font-size: 42px;
+    line-height: 46px;
+    padding: 0;
+    align-self: end;
+  }
+
+  .card__professional {
+    padding: 0;
+    align-self: end;
+  }
+
+  .card__paragraphs {
+    grid-row: span 2;
+    padding: 0;
+  }
+
+  .card__button {
+    margin: 0;
+    display: inline;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 21.78px;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .card {
+    grid-template-columns: 460px 1fr;
+    column-gap: 40px;
+    width: 100%;
+  }
+
+  .card__title {
+    font-size: 72px;
+    line-height: 76px;
+  }
+
+  .card__paragraphs {
+    font-size: 18px;
+    line-height: 29.34px;
+  }
+
+  .card__button:hover {
+    background: #0063d2;
+  }
+}

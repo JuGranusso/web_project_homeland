@@ -1,0 +1,71 @@
+.intro {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin-top: 64px;
+}
+
+.intro__content {
+  padding: 0 16px;
+  max-width: 830px;
+  box-sizing: border-box;
+}
+
+.intro__title {
+  font-size: 32px;
+  line-height: 35px;
+  font-weight: 900;
+  text-align: left;
+}
+
+.intro__quote {
+  line-height: 30px;
+  font-size: 24px;
+  font-weight: 400;
+  text-align: left;
+}
+
+.intro__quote-author {
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 34px;
+  text-align: right;
+}
+
+.intro__text {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  text-align: left;
+}
+
+@media screen and (min-width: 768px) {
+  .intro__content {
+    padding: 0 24px;
+  }
+
+  .intro__title {
+    font-size: 54px;
+    line-height: 58px;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .intro {
+    margin-top: 92px;
+  }
+
+  .intro__body {
+    width: 100%;
+    max-width: 984px;
+    display: flex;
+  }
+
+  .intro__content {
+    padding: 0;
+  }
+
+  .intro__quote {
+    line-height: 34px;
+  }
+}
