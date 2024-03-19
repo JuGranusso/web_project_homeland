@@ -37,6 +37,10 @@
   margin: 0;
 }
 
+.cover__info p {
+  margin: 0;
+}
+
 .cover__button {
   background: #0278fe;
   color: #fff;
