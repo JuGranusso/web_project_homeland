@@ -24,3 +24,7 @@ Este código usa dados fictícios.
 `index.html`: Arquivo HTML principal que contém a estrutura da página web.
 
 `style.css`: Arquivo CSS que define o estilo da página web.
+
+### Link para a página:
+
+https://jugranusso.github.io/web_project_homeland/
